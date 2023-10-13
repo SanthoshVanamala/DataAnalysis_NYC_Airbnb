@@ -1,39 +1,57 @@
 
 This README file describes the data analysis and visualization for the Airbnb listings dataset in New York City.
 
-Software, libraries, and tools
-The following software, libraries, and tools are required to use this project:
+**Software, libraries, and tools** :
 
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Data cleaning
+
+Python,
+NumPy,
+Pandas,
+Matplotlib,
+Seaborn.
+
+
+**Data cleaning**
+
+
+
 The following data cleaning steps were performed:
+
+
 
 Dropped rows with missing values
 Removed special symbols from the price column and converted it to a numeric type
 Dropped duplicate rows
 Used the Winsorize function to reduce the effect of outliers in the price column
-Data analysis
-The following data analysis steps were performed:
+
+
+
+**Data analysis
+The following data analysis steps were performed:**
 
 Created a histogram of the price column to understand the range, mode, median, mean, and variability of prices
 Created a boxplot of the price column by neighborhood group to understand the distribution of prices by neighborhood group
 Created a scatter plot of the price column and the number of reviews column to understand the relationship between price and number of reviews
 Created a bar plot of the average price by room type
 Created a heatmap of the correlation between different features in the dataset
-Data visualization
-The following data visualizations were created:
+
+
+
+**Data visualization
+The following data visualizations were created:**
 
 Histogram of the price column
 Boxplot of the price column by neighborhood group
 Scatter plot of the price column and the number of reviews column
 Bar plot of the average price by room type
 Heatmap of the correlation between different features in the dataset
-Findings
+
+
+
+**Findings
 The following findings were made from the data analysis and visualization:
+**
+
 
 The range of prices is large, with the lowest price being 0 and the highest price being 600.
 The most common price is around 40.
