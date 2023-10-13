@@ -1,5 +1,4 @@
 
-README
 This README file describes the data analysis and visualization for the Airbnb listings dataset in New York City.
 
 Software, libraries, and tools
